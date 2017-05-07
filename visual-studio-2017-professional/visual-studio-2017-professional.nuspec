@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>visual-studio-2017-professional</id>
+    <version>2017.0.0</version>
+    <title>VisualStudio 2017 Professional</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://github.com/pondidum/ChocolateyPackages</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/pondidum/ChocolateyPackages/master/visual-studio-2017-professional/icon.png</iconUrl>
+    <tags>microsoft visualstudio professional 2017</tags>
+    <summary>Visual Studio 2017 Professional</summary>
+    <description>Visual Studio 2017 Professional, installing aspnet and .netcore tooling</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
